@@ -13,10 +13,10 @@ In mathematics, the Fibonacci numbers or Fibonacci sequence are the numbers in t
 
 **Here is what a perfect Fibonacci software should do:**
 
-1 You enter an `integer(n)` and it gives you `F(n)`.
-2 You enter an `integer(n)` and it tells you whether it's a number in the Sequence or not.
-3 You enter an `integer(n)` and it shows you all the numbers before `n`
-4 You enter an `integer(n)` and it shows you all the numbers before `F(n)`
++ You enter an `integer(n)` and it gives you `F(n)`.
++ You enter an `integer(n)` and it tells you whether it's a number in the Sequence or not.
++ You enter an `integer(n)` and it shows you all the numbers before `n`
++ You enter an `integer(n)` and it shows you all the numbers before `F(n)`
 
 ## Tips:
 + Instead of using `recursive algorithm` you should use this formula:
@@ -24,4 +24,5 @@ In mathematics, the Fibonacci numbers or Fibonacci sequence are the numbers in t
 ![Faster way to calculate Fibonacci numbers](assets/formula-1.gif)
 
 Where `n` is the `integer` and alpha/beta are:
+
 ![what are alpha and beta](assets/formula-2.gif)
